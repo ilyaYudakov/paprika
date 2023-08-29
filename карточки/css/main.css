@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Allerta+Stencil&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    /* background-color: #efefef; */
+}
+
+.container {
+  background-color: #D5C0A7;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    flex: 1 1 0px;
+    column-gap: 15px;
+    width: 100%;
+    padding: 0 5px 15px 5px;
+}
+
+.section-title {
+    margin: 60px 0;
+    font-size: 64px;
+}
+
+.card {
+    background-color: #D9D9D9;
+    border-radius: 24px;
+    padding: 50px 20px 0 32px;
+    width: 100%;
+}
+
+.card-number {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 74px;
+    font-weight: 300;
+    color: #2F2F2F;
+    padding-bottom: 30px;
+}
+
+progress {
+    /* position: absolute; */
+    padding: 10px 0;
+    accent-color: #D34E14;
+    height: 10px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.card-desc {
+    text-transform: lowercase;
+    padding-bottom: 30px;
+}
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{
+    font-weight: 100;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 1fr 1fr 1fr;
+}
+
+.container .box .dream img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.container .box .dream .card-service1 .card-service2 {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+  .card-service-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card-service-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+
+  .card-service-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 23px;
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size:contain;
+    padding: 40px;
+  }
+
+  .card-service1 {
+    height: 500px;
+    background-color: #A48671;
+    background-image: url(../img/service/service-boot.png);
+
+  }
+
+  .card-service2 {
+    height: 500px;
+    width: 300px;
+    background-color: #D5C0A7;
+    background-image: url(../img/service/service-coat.png);
+  }
+
+  .card-service3 {
+    height: 500px;
+    background-color: #CCC9C9;
+    background-image: url(../img/service/service-divan.png);
+  }
+
+  .card-service4 {
+    height: 400px;
+    width: 500px;
+    background-color: #FBF0E4;
+    background-image: url(../img/service/service-cover.png);
+  }
+
+  .card-service5 {
+    height: 400px;
+    width: 600px;
+    background-color: #D9D9D9;
+    background-image: url(../img/service/service-tshit.png);
+  }
+
+  .card-service6 {
+    height: 400px;
+    width: 600px;
+    background-color: #B5A4A0;
+    background-image: url(../img/service/service-bag.png);
+  }
+
+  .card-service-body-img {
+    margin: 0 auto;
+  }
+
+  .card-service-title {
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .card-service-price {
+    font-size: 20px;
+  }
+
+  .card-service-bottom {
+    display: flex;
+    justify-content: right;
+    
+  }
+
+  .card-service-body-img {
+    border: 1px solid #000;
+    margin: 0 auto;
+    height: 300px;
+  }
+
+  .card-service-bottom-img {
+    height: 50px;
+  }
+
+  .card-service-price {
+    width: 100px;
+  }
+
+  .section-about-us {
+
+  }
+  .section-map {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 1fr 1fr 1fr;
+    /* position: absolute; */
+
+  }
+
+  .section-map-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 40px;
+  }
+
+.punkt-list {
+    position: absolute;
+    background-color: #ffffff;
+    width: 430px;
+    height: 850px;
+    top: 1720px;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 20px 20px 50px #666;
+    overflow: auto;
+}
+
+.adress:hover img {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    border: #D34E14 solid 1px;
+    border-radius: 24px;
+}
+
+.profit-wrapper {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 250px);
+  gap: 20px 20px;
+}

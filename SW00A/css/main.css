@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/sans-forgetica');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import "./reset.css";
+
+body {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding-top: 46px;
+  background-color: #F1F1F1;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-bottom: 76px;
+}
+
+/* Nav */
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+/* Header content */
+
+.header-row {
+  display: flex;justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content {
+  margin-top: 124px;
+  max-width: 500px;
+}
+
+.header-heading {
+  font-family: 'Sans Forgetica';
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 140px;
+}
+
+.header-content p {
+  line-height: 2;
+}
