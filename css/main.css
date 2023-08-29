@@ -1,0 +1,479 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Allerta+Stencil&family=Roboto+Flex:opsz@8..144&display=swap');
+
+body {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+
+
+/* Header */
+
+.header {
+    padding-top: 46px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+
+.logo {
+  font-family: 'Allerta Stencil';
+    position: relative;
+    padding: 0 12px 3px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    color: #D34E14;
+}
+
+/* Nav */
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.header-content {
+  display: flex;
+}
+
+.header-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 0;
+}
+
+
+.header-heading {
+  font-family: 'Allerta Stencil';
+    margin-bottom: 70px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 193px;
+    color: #D34E14;
+}
+
+/* form order delivery */
+
+.order-form {
+  background-color: #807C7C;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 24px;
+}
+
+.order-form-title {
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+
+  gap: 30px;
+  font-size: 48px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.form-group {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group input {
+  padding: 20px;
+  font-weight: 400;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 14px;
+  font-size: 24px;
+}
+
+.form-group button {
+  padding: 30px;
+  background-color: #D34E14;
+  color: #fff;
+  border-radius: 14px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* card progress */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex: 1 1 0px;
+  column-gap: 15px;
+  width: 100%;
+  padding: 0 5px 15px 5px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin: 60px 0;
+  font-size: 64px;
+}
+
+.card {
+  background-color: #D9D9D9;
+  border-radius: 24px;
+  padding: 50px 20px 0 32px;
+  width: 100%;
+}
+
+.card-number {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 74px;
+  font-weight: 300;
+  color: #2F2F2F;
+  padding-bottom: 30px;
+}
+
+progress {
+  /* position: absolute; */
+  padding: 10px 0;
+  accent-color: #D34E14;
+  height: 10px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.card-desc {
+  text-transform: lowercase;
+  padding-bottom: 30px;
+}
+
+/* card-service */
+
+
+.container .heading {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.container .heading h3 {
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+
+.section-service {
+
+}
+
+.container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 1fr 1fr 1fr;
+}
+
+.container .box .dream img {
+width: 100%;
+padding: 10px;
+border-radius: 24px;
+}
+
+.container .box .dream .card-service1 .card-service2 {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* section map */
+
+.section-map {
+  /* margin-left: 200px; */
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 1fr 1fr 1fr;
+
+}
+
+.section-map-list-title {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.section-map-list {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -200px;
+  background-color: #ffffff;
+  width: 430px;
+  height: 740px;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 20px 20px 50px #666;
+  overflow: auto;
+}
+
+.section-map-search {
+  margin-left: 200px;
+  position: absolute;
+  font-weight: 400;
+  border-radius: 14px;
+  font-size: 24px;
+
+}
+
+.section-map-content {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+  /* background: url("/img/address/map.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* width: 970px;
+  height: 500px; */
+}
+
+.section-map-search input {
+  margin-top: 30px;
+  margin-left: -100px;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 10px;
+  width: 500px;
+  box-shadow: 10px 10px 20px #666;
+  border: none;
+}
+
+.address:hover img {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  border: #D34E14 solid 1px;
+  border-radius: 24px;
+}
+
+/* section profit */
+
+.profit-wrapper {
+  display: flex;
+}
+
+/* footer  */
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer-items {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.e-store {
+  display: flex;
+justify-content: space-between;
+}
+
+.footer-items-title {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.footer-link a {
+  font-size: 16px;
+  color: #000;
+}
+
+.footer-items-socials {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-items-socials img {
+    object-fit: contain;
+}
+
+.form-order-top {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 40px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.delivery-container {
+  display: flex;
+}
+
+.delivery-form {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border-radius: 24px;
+  background-color: #807C7C;
+
+}
+
+.form-group-row {
+  display: flex;
+  gap: 40px;
+}
+
+.datepicker {
+  padding-left: 40px;
+}
+
+.form input {
+  padding: 20px;
+  font-weight: 400;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 14px;
+  font-size: 24px;
+}
+
+.form-order-top button {
+  padding: 30px;
+  background-color: #D34E14;
+  color: #fff;
+  border-radius: 14px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.form-group-coloumn {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.delivery-form {
+  margin: 50px;
+  padding: 50px;
+  border-radius: 24px;
+}
+
+.delivery-form-title {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.card-profit {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+.card-profit img {
+  height: 270px;
+  object-fit: cover;
+}
